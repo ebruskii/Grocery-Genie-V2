@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "seed": "node ./tasks/seed.js"
+    "seed": "node ./tasks/seed.js",
+    "build": "echo 'No build step necessary'"
   },
   "repository": {
     "type": "git",
