@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
+    "build": "vite build",
     "seed": "node ./tasks/seed.js",
     "test": "jest"
   },
