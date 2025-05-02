@@ -6,6 +6,9 @@ import items from '../data/groceryListItems.js';
 import lists from '../data/groceryList.js';
 import comments from '../data/comments.js';
 
+import dotenv from 'dotenv';
+dotenv.config({path: '../.env'});
+
 const db = await dbConnection();
 await db.dropDatabase();
 
