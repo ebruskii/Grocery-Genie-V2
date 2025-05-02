@@ -30,7 +30,6 @@
     "express-handlebars": "^7.1.2",
     "helmet": "^8.1.0",
     "mongodb": "^6.6.1",
-    "vite": "^4.0.0",
     "seed": "^0.4.4",
     "xss": "^1.0.15"
   },
